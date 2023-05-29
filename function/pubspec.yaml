@@ -1,0 +1,558 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-2/images/svgg.png
+    - assets/page-2/images/polygon-7.png
+    - assets/page-2/images/svgg-Mg9.png
+    - assets/page-2/images/polygon-1-DBs.png
+    - assets/page-2/images/polygon-3.png
+    - assets/page-2/images/polygon-2-Huf.png
+    - assets/page-2/images/polygon-4-Vp1.png
+    - assets/page-2/images/polygon-4-LGV.png
+    - assets/page-2/images/polygon-12.png
+    - assets/page-2/images/polygon-4.png
+    - assets/page-2/images/polygon-2.png
+    - assets/page-2/images/svgg-Ed3.png
+    - assets/page-2/images/polygon-2-EQ5.png
+    - assets/page-2/images/polygon-5.png
+    - assets/page-2/images/polygon-10.png
+    - assets/page-2/images/group-237455.png
+    - assets/page-2/images/svgg-4DB.png
+    - assets/page-2/images/polygon-6-re9.png
+    - assets/page-2/images/svgg-kVs.png
+    - assets/page-2/images/svgg-3jB.png
+    - assets/page-2/images/polygon-5-YwP.png
+    - assets/page-2/images/svgg-Rzu.png
+    - assets/page-2/images/polygon-10-mbB.png
+    - assets/page-2/images/svgg-5f3.png
+    - assets/page-2/images/svgg-PzV.png
+    - assets/page-2/images/polygon-6-4Cm.png
+    - assets/page-2/images/svgg-yXK.png
+    - assets/page-2/images/polygon-7-Jxu.png
+    - assets/page-2/images/polygon-5-La9.png
+    - assets/page-2/images/svgg-ncV.png
+    - assets/page-2/images/svgg-c1B.png
+    - assets/page-2/images/svgg-AZ3.png
+    - assets/page-2/images/polygon-1.png
+    - assets/page-2/images/polygon-12-wfb.png
+    - assets/page-2/images/polygon-6.png
+    - assets/page-2/images/svgg-vbP.png
+    - assets/page-2/images/polygon-7-nUV.png
+    - assets/page-2/images/svgg-KUR.png
+    - assets/page-2/images/svgg-Fss.png
+    - assets/page-2/images/polygon-3-EW9.png
+    - assets/page-2/images/svgg-jLR.png
+    - assets/page-2/images/polygon-11.png
+    - assets/page-2/images/polygon-12-gYu.png
+    - assets/page-2/images/svgg-2Ms.png
+    - assets/page-2/images/polygon-10-CRs.png
+    - assets/page-2/images/polygon-4-FWV.png
+    - assets/page-2/images/polygon-1-Kv5.png
+    - assets/page-2/images/polygon-11-swb.png
+    - assets/page-2/images/polygon-7-zWR.png
+    - assets/page-2/images/polygon-10-xk5.png
+    - assets/page-2/images/polygon-3-ijF.png
+    - assets/page-2/images/polygon-1-Fz5.png
+    - assets/page-2/images/polygon-2-bgZ.png
+    - assets/page-2/images/polygon-1-uhF.png
+    - assets/page-2/images/polygon-5-181.png
+    - assets/page-2/images/polygon-6-yZw.png
+    - assets/page-2/images/svgg-KQq.png
+    - assets/page-2/images/polygon-4-Tmw.png
+    - assets/page-2/images/polygon-3-egd.png
+    - assets/page-2/images/polygon-7-11P.png
+    - assets/page-2/images/polygon-11-Mqw.png
+    - assets/page-2/images/svgg-Knm.png
+    - assets/page-2/images/svgg-SsP.png
+    - assets/page-2/images/polygon-10-T3j.png
+    - assets/page-2/images/polygon-12-LWq.png
+    - assets/page-2/images/polygon-12-2Qu.png
+    - assets/page-2/images/svgg-PTj.png
+    - assets/page-2/images/polygon-1-Yx5.png
+    - assets/page-2/images/polygon-11-wL1.png
+    - assets/page-2/images/polygon-3-5SD.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-zUm.png
+    - assets/page-2/images/polygon-6-NfX.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-xWH.png
+    - assets/page-2/images/icon-circle-fill.png
+    - assets/page-2/images/polygon-11-WBF.png
+    - assets/page-2/images/polygon-4-rF7.png
+    - assets/page-2/images/path0.png
+    - assets/page-2/images/polygon-10-hKb.png
+    - assets/page-2/images/polygon-12-qgh.png
+    - assets/page-2/images/svgg-oNd.png
+    - assets/page-2/images/polygon-11-ADB.png
+    - assets/page-2/images/polygon-1-vTF.png
+    - assets/page-2/images/svgg-6ZK.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-rnZ.png
+    - assets/page-2/images/polygon-5-yED.png
+    - assets/page-2/images/polygon-5-di5.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-yX3.png
+    - assets/page-2/images/polygon-11-wCy.png
+    - assets/page-2/images/svgg-wJ5.png
+    - assets/page-2/images/polygon-1-oUh.png
+    - assets/page-2/images/polygon-12-Qoo.png
+    - assets/page-2/images/svgg-WpD.png
+    - assets/page-2/images/polygon-3-KFs.png
+    - assets/page-2/images/polygon-4-5AV.png
+    - assets/page-2/images/polygon-10-XYH.png
+    - assets/page-2/images/polygon-7-VtR.png
+    - assets/page-2/images/polygon-2-Ajf.png
+    - assets/page-2/images/polygon-2-Hho.png
+    - assets/page-2/images/group-237455-Sny.png
+    - assets/page-2/images/polygon-5-Nzh.png
+    - assets/page-2/images/polygon-7-87F.png
+    - assets/page-2/images/polygon-2-1hF.png
+    - assets/page-2/images/polygon-6-ChB.png
+    - assets/page-2/images/polygon-3-aEy.png
+    - assets/page-2/images/svgg-GNh.png
+    - assets/page-2/images/polygon-6-YGu.png
+    - assets/page-2/images/svgg-sa5.png
+    - assets/page-2/images/group-237456.png
+    - assets/page-2/images/polygon-3-UXo.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-EFX.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-JUV.png
+    - assets/page-2/images/svgg-x6H.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-q81.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-S1K.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-Mvd.png
+    - assets/page-2/images/polygon-10-Zz5.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-JAy.png
+    - assets/page-2/images/svgg-Lz9.png
+    - assets/page-2/images/polygon-12-DRX.png
+    - assets/page-2/images/polygon-4-ouX.png
+    - assets/page-2/images/svgg-hG9.png
+    - assets/page-2/images/polygon-11-5g1.png
+    - assets/page-2/images/polygon-6-H9o.png
+    - assets/page-2/images/svgg-Ecm.png
+    - assets/page-2/images/polygon-5-Dt1.png
+    - assets/page-2/images/polygon-10-dyf.png
+    - assets/page-2/images/polygon-1-S7o.png
+    - assets/page-2/images/polygon-6-1KK.png
+    - assets/page-2/images/polygon-7-6k5.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-4gu.png
+    - assets/page-2/images/polygon-4-79P.png
+    - assets/page-2/images/polygon-15.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-K7s.png
+    - assets/page-2/images/polygon-3-taH.png
+    - assets/page-2/images/svgg-o4H.png
+    - assets/page-2/images/polygon-2-BsT.png
+    - assets/page-2/images/polygon-11-wNm.png
+    - assets/page-2/images/polygon-5-iAZ.png
+    - assets/page-2/images/polygon-2-qAd.png
+    - assets/page-2/images/svgg-fpy.png
+    - assets/page-2/images/svgg-Ko3.png
+    - assets/page-2/images/svgg-rjX.png
+    - assets/page-2/images/polygon-1-Y1K.png
+    - assets/page-2/images/svgg-ZSD.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-Nr1.png
+    - assets/page-2/images/polygon-7-Laq.png
+    - assets/page-2/images/polygon-14.png
+    - assets/page-2/images/polygon-6-9HP.png
+    - assets/page-2/images/polygon-3-SXP.png
+    - assets/page-2/images/polygon-14-QUD.png
+    - assets/page-2/images/polygon-5-yGR.png
+    - assets/page-2/images/polygon-4-USh.png
+    - assets/page-2/images/polygon-12-Bc1.png
+    - assets/page-2/images/polygon-11-kQD.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-wBT.png
+    - assets/page-2/images/polygon-10-T5w.png
+    - assets/page-2/images/polygon-2-bC9.png
+    - assets/page-2/images/polygon-12-8hj.png
+    - assets/page-2/images/polygon-12-fSm.png
+    - assets/page-2/images/polygon-1-RB3.png
+    - assets/page-2/images/polygon-1-BR7.png
+    - assets/page-2/images/polygon-7-8r9.png
+    - assets/page-2/images/polygon-3-d2D.png
+    - assets/page-2/images/polygon-15-nA1.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-LBX.png
+    - assets/page-2/images/polygon-14-qe5.png
+    - assets/page-2/images/svgg-WzR.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-g6Z.png
+    - assets/page-2/images/svgg-BNM.png
+    - assets/page-2/images/polygon-11-DZw.png
+    - assets/page-2/images/polygon-15-NEZ.png
+    - assets/page-2/images/polygon-5-LN9.png
+    - assets/page-2/images/polygon-10-dT3.png
+    - assets/page-2/images/polygon-6-vAy.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-ZvV.png
+    - assets/page-2/images/polygon-2-FMX.png
+    - assets/page-2/images/polygon-5-hpR.png
+    - assets/page-2/images/polygon-4-LR3.png
+    - assets/page-2/images/polygon-10-cdT.png
+    - assets/page-2/images/polygon-7-Poj.png
+    - assets/page-2/images/polygon-6-bZX.png
+    - assets/page-2/images/polygon-12-YsF.png
+    - assets/page-2/images/svgg-xms.png
+    - assets/page-2/images/polygon-2-Wg5.png
+    - assets/page-2/images/svgg-cnH.png
+    - assets/page-2/images/polygon-1-J9s.png
+    - assets/page-2/images/polygon-11-TMw.png
+    - assets/page-2/images/polygon-7-De5.png
+    - assets/page-2/images/polygon-3-92M.png
+    - assets/page-2/images/polygon-15-Spd.png
+    - assets/page-2/images/polygon-6-i3P.png
+    - assets/page-2/images/polygon-11-P9X.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-fWM.png
+    - assets/page-2/images/polygon-3-osT.png
+    - assets/page-2/images/svgg-y1F.png
+    - assets/page-2/images/polygon-12-SvR.png
+    - assets/page-2/images/polygon-1-DQy.png
+    - assets/page-2/images/polygon-4-DAd.png
+    - assets/page-2/images/polygon-2-ur5.png
+    - assets/page-2/images/polygon-15-ru3.png
+    - assets/page-2/images/polygon-5-irh.png
+    - assets/page-2/images/polygon-14-M7T.png
+    - assets/page-2/images/svgg-KeD.png
+    - assets/page-2/images/polygon-4-W6H.png
+    - assets/page-2/images/polygon-7-ytZ.png
+    - assets/page-2/images/polygon-14-RSD.png
+    - assets/page-2/images/polygon-10-z3P.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-QtM.png
+    - assets/page-2/images/svgg-T1f.png
+    - assets/page-2/images/polygon-12-vkd.png
+    - assets/page-2/images/polygon-7-WQm.png
+    - assets/page-2/images/polygon-14-7cZ.png
+    - assets/page-2/images/polygon-3-wBj.png
+    - assets/page-2/images/polygon-4-gkd.png
+    - assets/page-2/images/polygon-6-gSR.png
+    - assets/page-2/images/polygon-10-RoB.png
+    - assets/page-2/images/polygon-11-jB3.png
+    - assets/page-2/images/svgg-d4h.png
+    - assets/page-2/images/polygon-2-yY9.png
+    - assets/page-2/images/polygon-1-nsX.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-avh.png
+    - assets/page-2/images/polygon-5-7Gy.png
+    - assets/page-2/images/polygon-15-Kws.png
+    - assets/page-2/images/polygon-5-Coo.png
+    - assets/page-2/images/polygon-14-HmF.png
+    - assets/page-2/images/polygon-4-H6D.png
+    - assets/page-2/images/polygon-12-hAM.png
+    - assets/page-2/images/polygon-2-9jT.png
+    - assets/page-2/images/polygon-7-zku.png
+    - assets/page-2/images/polygon-1-PSd.png
+    - assets/page-2/images/polygon-3-nyT.png
+    - assets/page-2/images/svgg-DyP.png
+    - assets/page-2/images/polygon-6-kWR.png
+    - assets/page-2/images/svgg-yRX.png
+    - assets/page-2/images/polygon-15-xUd.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-cwo.png
+    - assets/page-2/images/polygon-10-6qK.png
+    - assets/page-2/images/polygon-11-u5w.png
+    - assets/page-2/images/svgg-46q.png
+    - assets/page-2/images/svgg-1Gy.png
+    - assets/page-2/images/svgg-4iR.png
+    - assets/page-2/images/svgg-E77.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-rbw.png
+    - assets/page-2/images/svgg-wTb.png
+    - assets/page-2/images/svgg-93K.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-73b.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-1hF.png
+    - assets/page-2/images/svgg-49T.png
+    - assets/page-2/images/group-237455-zff.png
+    - assets/page-2/images/group-237456-QAZ.png
+    - assets/page-2/images/svgg-9o3.png
+    - assets/page-2/images/svgg-Gfw.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-wHX.png
+    - assets/page-2/images/image-37.png
+    - assets/page-2/images/ellipse-3.png
+    - assets/page-2/images/unsplash-gp7-i8nzfzq-bg-c8d.png
+    - assets/page-2/images/ellipse-5.png
+    - assets/page-2/images/ellipse-4.png
+    - assets/page-2/images/ellipse-2.png
+    - assets/page-1/images/image-6.png
+    - assets/page-2/images/ellipse-1.png
+    - assets/page-1/images/logo.png
+    - assets/page-1/images/image-2.png
+    - assets/page-1/images/image-5.png
+    - assets/page-1/images/image-7.png
+    - assets/page-1/images/image-21.png
+    - assets/page-1/images/image-8.png
+    - assets/page-1/images/image-10.png
+    - assets/page-1/images/rectangle-4.png
+    - assets/page-1/images/image-18.png
+    - assets/page-1/images/image-19.png
+    - assets/page-1/images/image-13.png
+    - assets/page-1/images/image-24.png
+    - assets/page-1/images/image-16.png
+    - assets/page-1/images/image-26.png
+    - assets/page-1/images/image-29.png
+    - assets/page-1/images/image-11.png
+    - assets/page-1/images/image-31.png
+    - assets/page-1/images/group-30.png
+    - assets/page-1/images/signal.png
+    - assets/page-1/images/image-2-SJ1.png
+    - assets/page-1/images/image-15.png
+    - assets/page-1/images/image-23.png
+    - assets/page-1/images/group-9.png
+    - assets/page-1/images/image-25.png
+    - assets/page-1/images/image-17.png
+    - assets/page-1/images/image-28.png
+    - assets/page-1/images/image-30.png
+    - assets/page-1/images/image-14.png
+    - assets/page-1/images/rectangle-66.png
+    - assets/page-1/images/rectangle-67.png
+    - assets/page-1/images/rectangle-67-wED.png
+    - assets/page-1/images/wifi.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/battery-full.png
+    - assets/page-1/images/battery-full-D2M.png
+    - assets/page-1/images/signal-T7B.png
+    - assets/page-1/images/wifi-6AR.png
+    - assets/page-1/images/image-12.png
+    - assets/page-1/images/signal-Hvu.png
+    - assets/page-1/images/battery-full-CF7.png
+    - assets/page-1/images/battery-full-nuK.png
+    - assets/page-1/images/vector-Xwb.png
+    - assets/page-1/images/vector-nW9.png
+    - assets/page-1/images/wifi-Pkq.png
+    - assets/page-1/images/image-22.png
+    - assets/page-1/images/image-27.png
+    - assets/page-1/images/image-9.png
+    - assets/page-1/images/image-36.png
+    - assets/page-1/images/signal-CoP.png
+    - assets/page-1/images/wifi-xoX.png
+    - assets/page-1/images/rectangle-56.png
+    - assets/page-1/images/signal-Bss.png
+    - assets/page-1/images/battery-full-mbB.png
+    - assets/page-1/images/wifi-Y93.png
+    - assets/page-1/images/rectangle-56-3zu.png
+    - assets/page-1/images/info-outline.png
+    - assets/page-1/images/fondo-pantalla-bg.png
+    - assets/page-1/images/image-9-g2R.png
+    - assets/page-1/images/rectangle-57.png
+    - assets/page-1/images/icon-plus.png
+    - assets/page-1/images/rectangle-57-yvD.png
+    - assets/page-1/images/image-9-GbP.png
+    - assets/page-1/images/fondo-pantalla-bg-Dau.png
+    - assets/page-1/images/rectangle-63-bg.png
+    - assets/page-1/images/icon-plus-cey.png
+    - assets/page-1/images/icon-info.png
+    - assets/page-1/images/icon-cog.png
+    - assets/page-1/images/auto-group-tqsp.png
+    - assets/page-1/images/icon-home.png
+    - assets/page-1/images/image-9-fmF.png
+    - assets/page-1/images/icon-cog-GnH.png
+    - assets/page-1/images/icon-menu.png
+    - assets/page-1/images/rectangle-61-bg.png
+    - assets/page-1/images/icon-menu-N3X.png
+    - assets/page-1/images/rectangle-62-bg.png
+    - assets/page-1/images/rectangle-62-bg-rPf.png
+    - assets/page-1/images/icon-home-mHF.png
+    - assets/page-1/images/auto-group-m8iq.png
+    - assets/page-1/images/icon-info-6Eh.png
+    - assets/page-1/images/rectangle-61-bg-BLR.png
+    - assets/page-1/images/unsplash-gp7-i8nzfzq-bg-hS5.png
+    - assets/page-1/images/rectangle-63-bg-Ncd.png
+    - assets/page-1/images/icon-menu-od7.png
+    - assets/page-1/images/icon-plus-7r5.png
+    - assets/page-1/images/auto-group-v1zf.png
+    - assets/page-1/images/icon-info-C4M.png
+    - assets/page-1/images/icon-cog-5gy.png
+    - assets/page-1/images/rectangle-63-bg-WW1.png
+    - assets/page-1/images/rectangle-62-bg-M5X.png
+    - assets/page-1/images/icon-home-vR3.png
+    - assets/page-1/images/rectangle-61-bg-3z5.png
+    - assets/page-1/images/auto-group-fw7s.png
+    - assets/page-1/images/icon-plus-oPB.png
+    - assets/page-1/images/icon-info-6cm.png
+    - assets/page-1/images/rectangle-61-bg-pqb.png
+    - assets/page-1/images/icon-home-Fnu.png
+    - assets/page-1/images/rectangle-63-bg-YCd.png
+    - assets/page-1/images/icon-cog-iKP.png
+    - assets/page-1/images/icon-menu-AD3.png
+    - assets/page-1/images/rectangle-62-bg-zu3.png
+    - assets/page-1/images/icon-plus-P6u.png
+    - assets/page-1/images/icon-menu-Gqj.png
+    - assets/page-1/images/icon-cog-fyf.png
+    - assets/page-1/images/icon-home-8ih.png
+    - assets/page-1/images/icon-home-QkV.png
+    - assets/page-1/images/icon-plus-rrZ.png
+    - assets/page-1/images/icon-menu-5Qy.png
+    - assets/page-1/images/icon-cog-QBf.png
+    - assets/page-1/images/icon-cog-VG1.png
+    - assets/page-1/images/image-39.png
+    - assets/page-1/images/rectangle-59.png
+    - assets/page-1/images/image-40.png
+    - assets/page-1/images/icon-plus-u7s.png
+    - assets/page-1/images/icon-menu-uEd.png
+    - assets/page-1/images/icon-home-1s3.png
+    - assets/page-1/images/image-41.png
+    - assets/page-1/images/image-42.png
+    - assets/page-1/images/image-43.png
+    - assets/page-1/images/icon-home-rvZ.png
+    - assets/page-1/images/icon-menu-teZ.png
+    - assets/page-1/images/icon-cog-G1K.png
+    - assets/page-1/images/icon-plus-hPT.png
+    - assets/page-1/images/rectangle-59-QEH.png
+    - assets/page-1/images/image-43-CKP.png
+    - assets/page-1/images/icon-cog-PCZ.png
+    - assets/page-1/images/image-42-GmK.png
+    - assets/page-1/images/image-47.png
+    - assets/page-1/images/image-50.png
+    - assets/page-1/images/icon-menu-2Fw.png
+    - assets/page-1/images/image-49.png
+    - assets/page-1/images/icon-home-SsP.png
+    - assets/page-1/images/icon-plus-w3T.png
+    - assets/page-1/images/icon-menu-K5w.png
+    - assets/page-1/images/image-42-CBf.png
+    - assets/page-1/images/image-43-xRj.png
+    - assets/page-1/images/image-43-VkR.png
+    - assets/page-1/images/image-48.png
+    - assets/page-1/images/rectangle-60.png
+    - assets/page-1/images/icon-plus-KXb.png
+    - assets/page-1/images/image-46.png
+    - assets/page-1/images/image-42-Myf.png
+    - assets/page-1/images/icon-cog-JTf.png
+    - assets/page-1/images/icon-menu-RoB.png
+    - assets/page-1/images/icon-home-H7j.png
+    - assets/page-1/images/icon-cog-Nv9.png
+    - assets/page-1/images/icon-plus-MJd.png
+    - assets/page-1/images/icon-home-uzu.png
+    - assets/page-1/images/image-43-EuK.png
+    - assets/page-1/images/image-53.png
+    - assets/page-1/images/icon-plus-5Vf.png
+    - assets/page-1/images/icon-menu-P1P.png
+    - assets/page-1/images/icon-cog-Yzy.png
+    - assets/page-1/images/image-54.png
+    - assets/page-1/images/icon-home-szd.png
+    - assets/page-1/images/image-42-N5T.png
+    - assets/page-1/images/image-51.png
+    - assets/page-1/images/image-52.png
+    - assets/page-1/images/image-43-x6h.png
+    - assets/page-1/images/image-42-Pcq.png
+    - assets/page-1/images/image-57.png
+    - assets/page-1/images/image-60.png
+    - assets/page-1/images/icon-home-URT.png
+    - assets/page-1/images/image-42-9y7.png
+    - assets/page-1/images/icon-cog-e3X.png
+    - assets/page-1/images/image-43-Rnm.png
+    - assets/page-1/images/icon-menu-M7T.png
+    - assets/page-1/images/image-45.png
+    - assets/page-1/images/image-58.png
+    - assets/page-1/images/auto-group-1tm3.png
+    - assets/page-1/images/image-59.png
+    - assets/page-1/images/icon-plus-syw.png
+    - assets/page-1/images/icon-menu-3ED.png
+    - assets/page-1/images/icon-cog-arh.png
+    - assets/page-1/images/image-35.png
+    - assets/page-1/images/icon-info-Bdw.png
+    - assets/page-1/images/icon-home-Ury.png
+    - assets/page-1/images/icon-plus-aXF.png
+    - assets/page-1/images/image-10-3df.png
+    - assets/page-1/images/icon-menu-nLu.png
+    - assets/page-1/images/auto-group-fi1k.png
+    - assets/page-1/images/icon-cog-pJy.png
+    - assets/page-1/images/icon-plus-9aV.png
+    - assets/page-1/images/icon-home-z8d.png
+    - assets/page-1/images/icon-info-keH.png
+    - assets/page-1/images/icon-menu-aMb.png
+    - assets/page-1/images/auto-group-9fos.png
+    - assets/page-1/images/icon-home-YM3.png
+    - assets/page-1/images/icon-cog-hpy.png
+    - assets/page-1/images/icon-home-7Cq.png
+    - assets/page-1/images/icon-plus-gdT.png
+    - assets/page-1/images/icon-plus-c1j.png
+    - assets/page-1/images/icon-menu-REd.png
+    - assets/page-1/images/auto-group-as53.png
+    - assets/page-1/images/wifi-BoT.png
+    - assets/page-1/images/signal-b6m.png
+    - assets/page-1/images/battery-full-m89.png
+    - assets/page-1/images/icon-info-J1T.png
+    - assets/page-1/images/image-44.png
+    - assets/page-1/images/icon-cog-Rcq.png
+    - assets/page-1/images/image-37-KbB.png
+    - assets/page-1/images/image-11-uW5.png
+    - assets/page-1/images/image-55.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
